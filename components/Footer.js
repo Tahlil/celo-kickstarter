@@ -76,14 +76,14 @@ export default function Footer() {
               zIndex: -1,
             }}
           >
-            <NextLink href="/">🤝BetterFund</NextLink>
+            <NextLink href="/">Celo Crowdfund</NextLink>
           </Box>
         </Heading>
-        <Stack direction={"row"} spacing={6}>
+        {/* <Stack direction={"row"} spacing={6}>
           <NextLink href="/">Home</NextLink>
           <Link
             href={
-              "https://github.com/harsh242/betterfund-crowdfunding-in-blockchain"
+              "https://github.com/harsh242/celocrowdfund-crowdfunding-in-blockchain"
             }
             isExternal
           >
@@ -92,7 +92,7 @@ export default function Footer() {
           <Link href={"mailto:harshbadhai242@gmail.com"} isExternal>
             Contact
           </Link>
-        </Stack>
+        </Stack> */}
       </Container>
 
       <Box
@@ -109,8 +109,8 @@ export default function Footer() {
           justify={{ base: "center", md: "space-between" }}
           align={{ base: "center", md: "center" }}
         >
-          <Text>🌐 Made while 💩 by Harsh, Hritvik , Nischal & Aaditya</Text>
-          <Stack direction={"row"} spacing={6}>
+          <Text><a style={{color: 'blue'}} href="https://www.terolabs.org/">©2021 Universal Machine Inc.</a> This website is only for demo purpose.</Text>
+          {/* <Stack direction={"row"} spacing={6}>
             <SocialButton label={"Website"} href={"https://harshbadhai.me/"}>
               {" "}
               <FaGlobe />
@@ -130,7 +130,7 @@ export default function Footer() {
             >
               <FaInstagram />
             </SocialButton>
-          </Stack>
+          </Stack> */}
         </Container>
       </Box>
     </Box>

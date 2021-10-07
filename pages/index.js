@@ -227,7 +227,7 @@ export default function Home({ campaigns }) {
   return (
     <div>
       <Head>
-        <title>BetterFund</title>
+        <title>Celo Crowdfund</title>
         <meta
           name="description"
           content="Transparent Crowdfunding in Blockchain"
@@ -244,7 +244,7 @@ export default function Home({ campaigns }) {
             as="h1"
             py={4}
           >
-            Crowdfunding using the powers of <br /> Crypto & Blockchain 😄{" "}
+            Crowdfunding using Celo Blockchain
           </Heading>
           <NextLink href="/campaign/new">
             <Button
@@ -302,7 +302,7 @@ export default function Home({ campaigns }) {
           <HStack spacing={2}>
             <SkeletonCircle size="4" />
             <Heading as="h2" size="lg">
-              How BetterFund Works
+              How Celo Crowdfund Works
             </Heading>
           </HStack>
           <Divider marginTop="4" />
@@ -329,17 +329,17 @@ export default function Home({ campaigns }) {
               }
             />
           </SimpleGrid>
-          <Heading as="h2" size="lg" mt="8">
+          {/* <Heading as="h2" size="lg" mt="8">
             For any queries raise an issue on{" "}
             <Link
               color="teal.500"
-              href="https://github.com/harsh242/betterfund-crowdfunding-in-blockchain/issues"
+              href="https://github.com/harsh242/celocrowdfund-crowdfunding-in-blockchain/issues"
               isExternal
             >
               the Github Repo <ExternalLinkIcon mx="2px" />
             </Link>{" "}
           </Heading>
-          <Divider marginTop="4" />
+          <Divider marginTop="4" /> */}
         </Container>
       </main>
     </div>
