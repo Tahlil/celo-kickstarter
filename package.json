@@ -8,7 +8,9 @@
     "start": "next start"
   },
   "dependencies": {
+    "@celo-tools/use-contractkit": "^1.2.0",
     "@celo/contractkit": "^1.2.5",
+    "@celo/wallet-walletconnect": "^1.2.5",
     "@chakra-ui/icons": "^1.0.12",
     "@chakra-ui/react": "^1.6.0",
     "@emotion/react": "^11",
